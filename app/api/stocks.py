@@ -1,9 +1,12 @@
+from datetime import datetime, timezone
+
 from fastapi import APIRouter, Form, HTTPException, Query
 from fastapi.responses import HTMLResponse
 
 from app.config import get_settings
 from app.services.earnings_tracker import EarningsTrackerService
 from app.services.market_data import FMPClient, YahooClient
+from app.storage.stock_cache import DailyStockCache
 from app.stock_schemas import StockTrackerResponse
 
 router = APIRouter(prefix="/stocks", tags=["stocks"])
@@ -202,17 +205,34 @@ def analyze_stocks(
     drop_threshold_pct: float = Query(default=10.0, ge=1.0, le=40.0),
     reaction_days: int = Query(default=5, ge=1, le=20),
     max_events: int = Query(default=100, ge=10, le=300),
+    use_cache: bool = Query(default=True),
+    force_refresh: bool = Query(default=False),
 ) -> StockTrackerResponse:
+    today = datetime.now(timezone.utc).date()
+    cache = DailyStockCache(get_settings().data_dir)
+    if use_cache and not force_refresh:
+        cached = cache.read(today)
+        if cached is not None:
+            return cached
+
     service = _tracker_service()
     try:
-        return service.analyze(
+        result = service.analyze(
             lookback_days=lookback_days,
             future_days=future_days,
             drop_threshold_pct=drop_threshold_pct,
             reaction_days=reaction_days,
             max_events=max_events,
         )
+        if use_cache:
+            cache.write(result, today)
+        return result
     except RuntimeError as exc:
+        if use_cache:
+            cached = cache.read(today)
+            if cached is not None:
+                cached.warnings.append("External provider failed; returned cached result for today.")
+                return cached
         raise HTTPException(status_code=502, detail=str(exc)) from exc
 
 
@@ -223,6 +243,8 @@ def analyze_stocks_form(
     drop_threshold_pct: float = Form(default=10.0),
     reaction_days: int = Form(default=5),
     max_events: int = Form(default=100),
+    use_cache: bool = Form(default=True),
+    force_refresh: bool = Form(default=False),
 ) -> StockTrackerResponse:
     return analyze_stocks(
         lookback_days=lookback_days,
@@ -230,4 +252,6 @@ def analyze_stocks_form(
         drop_threshold_pct=drop_threshold_pct,
         reaction_days=reaction_days,
         max_events=max_events,
+        use_cache=use_cache,
+        force_refresh=force_refresh,
     )
