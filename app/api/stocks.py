@@ -148,7 +148,10 @@ def stocks_home() -> str:
       async function runTracker(params) {
         const query = new URLSearchParams(params);
         const response = await fetch(`/stocks/analyze?${query.toString()}`);
-        const payload = await response.json();
+        const contentType = response.headers.get('content-type') || '';
+        const payload = contentType.includes('application/json')
+          ? await response.json()
+          : { detail: await response.text() };
 
         if (!response.ok) {
           throw new Error(payload.detail || 'Request failed');

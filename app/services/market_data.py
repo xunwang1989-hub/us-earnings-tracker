@@ -2,7 +2,7 @@ import json
 from dataclasses import dataclass, field
 from datetime import date
 from typing import Protocol
-from urllib.error import HTTPError, URLError
+from urllib.error import URLError
 from urllib.parse import urlencode
 from urllib.request import urlopen
 
@@ -132,7 +132,7 @@ class YahooClient:
         ticker = yf.Ticker(symbol)
         try:
             earnings_dates = ticker.get_earnings_dates(limit=12)
-        except (HTTPError, URLError, ValueError):
+        except Exception:
             self._earnings_cache[symbol] = []
             return []
 
@@ -157,7 +157,7 @@ class YahooClient:
         ticker = yf.Ticker(symbol)
         try:
             history = ticker.history(start=start_date.isoformat(), end=end_date.isoformat(), interval="1d")
-        except (HTTPError, URLError, ValueError) as exc:
+        except Exception as exc:
             raise RuntimeError(f"Unable to read market data from Yahoo endpoint for {symbol}. Cause: {exc}") from exc
 
         if history is None or history.empty:
