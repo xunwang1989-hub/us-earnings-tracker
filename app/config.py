@@ -25,6 +25,13 @@ class Settings(BaseSettings):
     fmp_base_url: str = "https://financialmodelingprep.com"
     fmp_timeout_seconds: float = 20.0
 
+    market_data_provider: str = "yahoo"
+    yahoo_universe_symbols: str = (
+        "AAPL,MSFT,NVDA,AMZN,GOOGL,GOOG,META,TSLA,BRK-B,AVGO,LLY,WMT,JPM,V,UNH,XOM,MA,"
+        "COST,PG,HD,ORCL,NFLX,MRK,ABBV,CVX,KO,ADBE,CRM,AMD,PEP,LIN,BAC,ACN,MCD,TMO,CSCO,"
+        "ABT,WFC,GE,DIS,QCOM,DHR,VZ,INTU,PM,CAT,TXN,INTC,PFE,IBM,AMAT,NOW,UBER,BX,GS,MS"
+    )
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",

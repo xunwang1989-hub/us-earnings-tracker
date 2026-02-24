@@ -3,7 +3,7 @@ from fastapi.responses import HTMLResponse
 
 from app.config import get_settings
 from app.services.earnings_tracker import EarningsTrackerService
-from app.services.market_data import FMPClient
+from app.services.market_data import FMPClient, YahooClient
 from app.stock_schemas import StockTrackerResponse
 
 router = APIRouter(prefix="/stocks", tags=["stocks"])
@@ -11,17 +11,37 @@ router = APIRouter(prefix="/stocks", tags=["stocks"])
 
 def _tracker_service() -> EarningsTrackerService:
     settings = get_settings()
-    if not settings.fmp_api_key:
+    provider = settings.market_data_provider.lower().strip()
+
+    if provider == "fmp":
+        if not settings.fmp_api_key:
+            raise HTTPException(
+                status_code=503,
+                detail="FMP_API_KEY is not configured. Add it in your .env file before using provider=fmp.",
+            )
+        client = FMPClient(
+            api_key=settings.fmp_api_key,
+            base_url=settings.fmp_base_url,
+            timeout_seconds=settings.fmp_timeout_seconds,
+        )
+    elif provider == "yahoo":
+        symbols = [
+            item.strip().upper()
+            for item in settings.yahoo_universe_symbols.split(",")
+            if item.strip()
+        ]
+        if not symbols:
+            raise HTTPException(
+                status_code=503,
+                detail="YAHOO_UNIVERSE_SYMBOLS is empty. Add at least one ticker symbol.",
+            )
+        client = YahooClient(universe_symbols=symbols)
+    else:
         raise HTTPException(
             status_code=503,
-            detail="FMP_API_KEY is not configured. Add it in your .env file before using /stocks.",
+            detail="Unsupported MARKET_DATA_PROVIDER. Use 'yahoo' or 'fmp'.",
         )
 
-    client = FMPClient(
-        api_key=settings.fmp_api_key,
-        base_url=settings.fmp_base_url,
-        timeout_seconds=settings.fmp_timeout_seconds,
-    )
     return EarningsTrackerService(client)
 
 

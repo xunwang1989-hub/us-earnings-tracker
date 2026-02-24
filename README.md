@@ -43,7 +43,8 @@ FastAPI app with two tools:
    cp .env.example .env
    ```
    Set `OPENAI_API_KEY` for podcast summarization.
-   Set `FMP_API_KEY` for stock earnings tracking.
+   Stock tracking defaults to Yahoo public data (`MARKET_DATA_PROVIDER=yahoo`), no key required.
+   Optional: set `MARKET_DATA_PROVIDER=fmp` and `FMP_API_KEY` if you want to use FMP instead.
 4. Run API:
    ```bash
    uvicorn app.main:app --reload
@@ -95,7 +96,6 @@ pytest
 - ASR provider is separated under `app/services/asr/` so cloud ASR can be swapped in later.
 - For best audio compatibility, install `ffmpeg`. The transcriber will convert non-wav inputs to wav when `ffmpeg` is available.
 - If `ffmpeg` is unavailable, the app attempts direct transcription using the original upload format.
-- Stock tracking uses Financial Modeling Prep endpoints:
-  - historical earnings calendar
-  - upcoming earnings calendar
-  - per-symbol daily close history for post-earnings drop calculation
+- Stock tracking data provider:
+  - default: Yahoo (`yfinance`) with a configurable U.S. ticker universe
+  - optional: Financial Modeling Prep (`MARKET_DATA_PROVIDER=fmp`)

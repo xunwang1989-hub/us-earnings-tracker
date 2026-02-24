@@ -1,8 +1,8 @@
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import date
 from typing import Protocol
-from urllib.error import URLError
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import urlopen
 
@@ -93,6 +93,84 @@ class FMPClient:
                 continue
             try:
                 prices.append(PriceBar(date=date.fromisoformat(day_text), close=float(close)))
+            except (TypeError, ValueError):
+                continue
+
+        prices.sort(key=lambda item: item.date)
+        return prices
+
+
+@dataclass
+class YahooClient:
+    universe_symbols: list[str]
+    _earnings_cache: dict[str, list[date]] = field(default_factory=dict)
+
+    def fetch_earnings_calendar(self, start_date: date, end_date: date, historical: bool) -> list[EarningsEvent]:
+        events: list[EarningsEvent] = []
+        for symbol in self.universe_symbols:
+            for earnings_day in self._symbol_earnings_days(symbol):
+                if earnings_day < start_date or earnings_day > end_date:
+                    continue
+                if historical and earnings_day > date.today():
+                    continue
+                if not historical and earnings_day <= date.today():
+                    continue
+
+                events.append(EarningsEvent(symbol=symbol, earnings_date=earnings_day))
+
+        return events
+
+    def _symbol_earnings_days(self, symbol: str) -> list[date]:
+        if symbol in self._earnings_cache:
+            return self._earnings_cache[symbol]
+
+        try:
+            import yfinance as yf
+        except ImportError as exc:
+            raise RuntimeError("Yahoo provider requires yfinance and pandas dependencies") from exc
+
+        ticker = yf.Ticker(symbol)
+        try:
+            earnings_dates = ticker.get_earnings_dates(limit=12)
+        except (HTTPError, URLError, ValueError):
+            self._earnings_cache[symbol] = []
+            return []
+
+        if earnings_dates is None or earnings_dates.empty:
+            self._earnings_cache[symbol] = []
+            return []
+
+        days: list[date] = []
+        for idx in earnings_dates.index:
+            if idx is None:
+                continue
+            days.append(idx.date())
+        self._earnings_cache[symbol] = days
+        return days
+
+    def fetch_price_history(self, symbol: str, start_date: date, end_date: date) -> list[PriceBar]:
+        try:
+            import yfinance as yf
+        except ImportError as exc:
+            raise RuntimeError("Yahoo provider requires yfinance dependency") from exc
+
+        ticker = yf.Ticker(symbol)
+        try:
+            history = ticker.history(start=start_date.isoformat(), end=end_date.isoformat(), interval="1d")
+        except (HTTPError, URLError, ValueError) as exc:
+            raise RuntimeError(f"Unable to read market data from Yahoo endpoint for {symbol}. Cause: {exc}") from exc
+
+        if history is None or history.empty:
+            return []
+
+        prices: list[PriceBar] = []
+        for idx, row in history.iterrows():
+            close = row.get("Close")
+            if close is None:
+                continue
+            day = idx.date()
+            try:
+                prices.append(PriceBar(date=day, close=float(close)))
             except (TypeError, ValueError):
                 continue
 
