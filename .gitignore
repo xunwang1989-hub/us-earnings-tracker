@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.pycache/
+.venv/
+.env
+*.pyc
+
+# runtime data
+/data/jobs/*
+!/data/jobs/.gitkeep
