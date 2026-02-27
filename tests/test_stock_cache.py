@@ -9,6 +9,9 @@ def test_daily_stock_cache_roundtrip(tmp_path) -> None:
     day = date(2026, 2, 24)
     payload = StockTrackerResponse(
         generated_at=datetime(2026, 2, 24, tzinfo=timezone.utc),
+        data_source="fmp:/stable/earnings-calendar",
+        source_window_from=date(2026, 2, 17),
+        source_window_to=date(2026, 3, 10),
         lookback_days=7,
         future_days=14,
         drop_threshold_pct=10.0,

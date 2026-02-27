@@ -34,6 +34,9 @@ class UpcomingEarningsItem(BaseModel):
 
 class StockTrackerResponse(BaseModel):
     generated_at: datetime
+    data_source: str
+    source_window_from: date
+    source_window_to: date
     lookback_days: int
     future_days: int
     drop_threshold_pct: float = Field(description="Negative move threshold after earnings")

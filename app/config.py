@@ -25,7 +25,10 @@ class Settings(BaseSettings):
     fmp_base_url: str = "https://financialmodelingprep.com"
     fmp_timeout_seconds: float = 20.0
 
-    market_data_provider: str = "yahoo"
+    market_data_provider: str = "fmp"
+    finnhub_api_key: str | None = None
+    finnhub_base_url: str = "https://finnhub.io"
+    finnhub_timeout_seconds: float = 20.0
     yahoo_universe_symbols: str = (
         "AAPL,MSFT,NVDA,AMZN,GOOGL,GOOG,META,TSLA,BRK-B,AVGO,LLY,WMT,JPM,V,UNH,XOM,MA,"
         "COST,PG,HD,ORCL,NFLX,MRK,ABBV,CVX,KO,ADBE,CRM,AMD,PEP,LIN,BAC,ACN,MCD,TMO,CSCO,"

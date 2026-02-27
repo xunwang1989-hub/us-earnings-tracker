@@ -1,6 +1,6 @@
 import json
 from dataclasses import dataclass, field
-from datetime import date
+from datetime import date, datetime, timezone
 from typing import Protocol
 from urllib.error import URLError
 from urllib.parse import urlencode
@@ -101,6 +101,94 @@ class FMPClient:
 
 
 @dataclass
+class FinnhubClient:
+    api_key: str
+    base_url: str = "https://finnhub.io"
+    timeout_seconds: float = 20.0
+    allowed_symbols: set[str] | None = None
+
+    def _get_json(self, path: str, params: dict[str, str]) -> list[dict] | dict:
+        query = dict(params)
+        query["token"] = self.api_key
+        encoded = urlencode(query)
+        url = f"{self.base_url.rstrip('/')}{path}?{encoded}"
+        try:
+            with urlopen(url, timeout=self.timeout_seconds) as response:  # noqa: S310
+                payload = response.read().decode("utf-8")
+            return json.loads(payload)
+        except (URLError, json.JSONDecodeError) as exc:
+            raise RuntimeError(f"Unable to read market data from Finnhub endpoint: {path}. Cause: {exc}") from exc
+
+    def fetch_earnings_calendar(self, start_date: date, end_date: date, historical: bool) -> list[EarningsEvent]:
+        payload = self._get_json(
+            "/api/v1/calendar/earnings",
+            {
+                "from": start_date.isoformat(),
+                "to": end_date.isoformat(),
+            },
+        )
+        if not isinstance(payload, dict):
+            return []
+
+        rows = payload.get("earningsCalendar", [])
+        if not isinstance(rows, list):
+            return []
+
+        events: list[EarningsEvent] = []
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            symbol = str(row.get("symbol") or "").upper().strip()
+            if self.allowed_symbols is not None and symbol not in self.allowed_symbols:
+                continue
+            day_text = str(row.get("date") or "").strip()
+            if not symbol or not day_text:
+                continue
+            try:
+                events.append(
+                    EarningsEvent(
+                        symbol=symbol,
+                        earnings_date=date.fromisoformat(day_text),
+                        company_name=row.get("company"),
+                        time=row.get("hour"),
+                    )
+                )
+            except ValueError:
+                continue
+        return events
+
+    def fetch_price_history(self, symbol: str, start_date: date, end_date: date) -> list[PriceBar]:
+        from_ts = int(datetime.combine(start_date, datetime.min.time(), tzinfo=timezone.utc).timestamp())
+        to_ts = int(datetime.combine(end_date, datetime.min.time(), tzinfo=timezone.utc).timestamp())
+        payload = self._get_json(
+            "/api/v1/stock/candle",
+            {
+                "symbol": symbol,
+                "resolution": "D",
+                "from": str(from_ts),
+                "to": str(to_ts),
+            },
+        )
+        if not isinstance(payload, dict):
+            return []
+        if payload.get("s") not in {"ok", "no_data"}:
+            return []
+        closes = payload.get("c", [])
+        times = payload.get("t", [])
+        if not isinstance(closes, list) or not isinstance(times, list):
+            return []
+        prices: list[PriceBar] = []
+        for ts, close in zip(times, closes, strict=False):
+            try:
+                day = datetime.fromtimestamp(int(ts), tz=timezone.utc).date()
+                prices.append(PriceBar(date=day, close=float(close)))
+            except (TypeError, ValueError, OSError):
+                continue
+        prices.sort(key=lambda item: item.date)
+        return prices
+
+
+@dataclass
 class YahooClient:
     universe_symbols: list[str]
     _earnings_cache: dict[str, list[date]] = field(default_factory=dict)
@@ -176,3 +264,27 @@ class YahooClient:
 
         prices.sort(key=lambda item: item.date)
         return prices
+
+
+@dataclass
+class FallbackMarketDataClient:
+    primary: MarketDataClient
+    fallback: MarketDataClient
+
+    def fetch_earnings_calendar(self, start_date: date, end_date: date, historical: bool) -> list[EarningsEvent]:
+        try:
+            rows = self.primary.fetch_earnings_calendar(start_date, end_date, historical)
+            if rows:
+                return rows
+        except RuntimeError:
+            pass
+        return self.fallback.fetch_earnings_calendar(start_date, end_date, historical)
+
+    def fetch_price_history(self, symbol: str, start_date: date, end_date: date) -> list[PriceBar]:
+        try:
+            rows = self.primary.fetch_price_history(symbol, start_date, end_date)
+            if rows:
+                return rows
+        except RuntimeError:
+            pass
+        return self.fallback.fetch_price_history(symbol, start_date, end_date)

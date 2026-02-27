@@ -17,6 +17,9 @@ class StubService:
     ) -> StockTrackerResponse:
         return StockTrackerResponse(
             generated_at=datetime(2026, 2, 24, tzinfo=timezone.utc),
+            data_source="fmp:/stable/earnings-calendar",
+            source_window_from=date(2026, 1, 25),
+            source_window_to=date(2026, 4, 9),
             lookback_days=lookback_days,
             future_days=future_days,
             drop_threshold_pct=drop_threshold_pct,

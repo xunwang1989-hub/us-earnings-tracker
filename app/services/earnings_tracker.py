@@ -16,6 +16,7 @@ class EarningsTrackerService:
         reaction_days: int,
         max_events: int = 100,
         today: date | None = None,
+        data_source: str = "unknown",
     ) -> StockTrackerResponse:
         reference_day = today or date.today()
         lookback_start = reference_day - timedelta(days=lookback_days)
@@ -85,6 +86,9 @@ class EarningsTrackerService:
 
         return StockTrackerResponse(
             generated_at=datetime.now(timezone.utc),
+            data_source=data_source,
+            source_window_from=lookback_start,
+            source_window_to=upcoming_end,
             lookback_days=lookback_days,
             future_days=future_days,
             drop_threshold_pct=abs(drop_threshold_pct),

@@ -1,0 +1,8990 @@
+{
+  "generated_at": "2026-02-24T18:20:45.447799Z",
+  "lookback_days": 30,
+  "future_days": 60,
+  "drop_threshold_pct": 10.0,
+  "reaction_days": 5,
+  "analyzed_events": 100,
+  "historical_drops": [],
+  "upcoming_earnings": [
+    {
+      "symbol": "ABSI",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BAER",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BCDA",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CLGN",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CNBZ",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNXC",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "DRRX",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "DTIL",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ELA",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FBIO",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FUL",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GNRV",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GTEC",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "HOFV",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LPAA",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MCIC",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MLKN",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MRAI",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ORIC",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SCS",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SELF",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SLSN",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TNYA",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ZEPP",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ZNTL",
+      "earnings_date": "2026-03-24",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AATC",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ABOS",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AGX",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ALMS",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMEN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AQB",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BKTI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "BKYI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BNAI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BPTH",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BRZE",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BTAI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BYSD",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BZUN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CAAP",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CAPR",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CBDY",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CLSD",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CMCL",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CNTX",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "COEP",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CRT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CULL",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DLPN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "DRCT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EDAP",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EMYB",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EP",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EPAC",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EPSN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EQ",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FACT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FAT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FFAI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FTHM",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FTLF",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GFR",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GOVX",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GPFT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HSPT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HYPR",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ICU",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IH",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "IKT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "IMTX",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "IPM",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "IWSH",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IZEA",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "JFIN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JVA",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KBH",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KC",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KFS",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KULR",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KYTX",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LENZ",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LFT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LINK",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MDAI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NNDM",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NRSN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "NSYS",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NUTX",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NXTT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ORMP",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PGAC",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PII",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PIII",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PMVCD",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PSTV",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PYXS",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RANI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RECT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SERA",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SKYH",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SNX",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SONX",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SRXH",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SSKN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "STLY",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TEN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "THAR",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "THRD",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TOON",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TPST",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TRVI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TVGN",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TXMD",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TYRA",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "VERF",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VINC",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "VSTD",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VTSI",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "WDRP",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WGO",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WHLM",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WLAC",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "YXT",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ZVSA",
+      "earnings_date": "2026-03-25",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ACRV",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ADGM",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AERG",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AFB",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ALT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ANSC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ANY",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AONC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "APTO",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ASFH",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ATLN",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "AVBP",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "AWH",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BATL",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BCAX",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BEAG",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BKFG",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BNKK",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BOC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BOLD",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BOXL",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BRST",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BRTX",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "BSET",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BZAI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CAAS",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CADL",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CALC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CCG",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CDZI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CEP",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHKR",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CLOQ",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CMRF",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CVR",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CVSI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CVV",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DTST",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ELSE",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ENVB",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EUBG",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EZRA",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FBRX",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FEMY",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FOTB",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GALT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GOGY",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GPAT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GULTU",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GYRO",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HOTH",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "HOUR",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HRBR",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HSPO",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HTCR",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "HUMA",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "IMNN",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "INR",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "INTI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "INVU",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ISCO",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IVVD",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "JTAI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "KBLB",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KEN",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KOD",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KPLT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "LADX",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LCTC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LEAT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LIQT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LSMG",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LVLU",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LVTX",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LVVP",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MBIO",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MKFG",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MPTI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MTEK",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MTEX",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NAKA",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NRDE",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PBBK",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PDSB",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PKTX",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PMIR",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "POET",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PPSI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PRHI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PRT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PULM",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "PVCT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "QSEP",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RMTI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RVP",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RVYL",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SACH",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SDSYA",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SEPN",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SHIM",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SILO",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SLE",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SNSE",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SPRO",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "STRS",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SVRA",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TAYD",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TIC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TSAT",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TSSI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TTAM",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UEEC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UMAC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UNCY",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "USCTF",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VANI",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VKSC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VTDRF",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "XOS",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "YTFD",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ZSPC",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ZSTK",
+      "earnings_date": "2026-03-26",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AFYA",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ALTS",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BYSI",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CGON",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ELTX",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EMMA",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ENTX",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GIGM",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GLTK",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HCWC",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HYEX",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IMTE",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IRON",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LGN",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MLSS",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MSAI",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NXPL",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NXXT",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "QMCI",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RSAU",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SBC",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SCWO",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TC",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TOFB",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TORM",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ZNOG",
+      "earnings_date": "2026-03-27",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PFSB",
+      "earnings_date": "2026-03-28",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AEI",
+      "earnings_date": "2026-03-29",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FMTO",
+      "earnings_date": "2026-03-29",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AAPI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AARD",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AGPU",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AIM",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AIRI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ALBT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMZE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ANNA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "APXIF",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AQMS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ASPI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ASST",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ASTI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ATNM",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ATPC",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ATXI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AURX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BASA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BAYA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BBLR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BCHT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BCLI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BDCO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BIAF",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BICX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BLGO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BLNE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BLPG",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BNGO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BUDZ",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BW",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BYNO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BYOC",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CABA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CARM",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CASI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CATV",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHAI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CISO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CLRO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNRD",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNSP",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "COCP",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "COOT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CRIS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CRKN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CRTAF",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CRVW",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CSTAF",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CVU",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CWD",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CXAI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CYBL",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DARE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "DFDV",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DHCC",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DOGZ",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DQWS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DRDB",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DSHK",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DSS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "DTSQ",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DUOT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "DVLT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "DWTX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EAXR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EDBL",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "EESE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ELLO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EMPD",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ENLV",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ETHZ",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EUSP",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FBLG",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FDCT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FEED",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FGNX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FTCI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GAHC",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GDEV",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GIFT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GMER",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GNPX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GORV",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "GRDX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GRTX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GTCH",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GTHP",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GWH",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "HGAS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HGTXU",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HLYK",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HRGN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HWH",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HWNI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IDAI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "IDR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IDXG",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IMII",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IMSR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IPDN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IPSI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IQST",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IRD",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ISRL",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JAGX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KALA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KEWL",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KWIK",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LFLY",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LGL",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LGMK",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LICYF",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LIEN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LIFD",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LMFA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LOCL",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MAGE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MCAP",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MITI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MKDW",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MLP",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MNPR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MNTS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MRKR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MTR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MVST",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MYNZ",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NBRI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NDRA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NG",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NIKA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NIXX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NMAX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NNOX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "NOEM",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NUMD",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NVVE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NWBO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NXDT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OCLN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OLOX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "OMEX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OMQS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "OZ",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PCOK",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PGNT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PHIO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PIAC",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PLMK",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PLSH",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PMN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "POLA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PRGS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PRPH",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PTIX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PVLA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PW",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PXHI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "QURT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RAFI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RANG",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RBCN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RCAT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RCON",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RDI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "REKR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RHE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RLBY",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RNGE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RNXT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "RPMT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RSRV",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SABS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SBFM",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SBLX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SCGX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SCLX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SCND",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SCTH",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SFIO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SFRX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SHCO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SHFS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SHMN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SIDU",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SIEB",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SJT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SLNH",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SMXT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SNFCA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SNYR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SONM",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SPIR",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SPRU",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SQFT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SRG",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SRZN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SVCC",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TAIT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TCRT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TESI",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TETAA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "THMG",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TRAW",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TREP",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UAVS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UNTN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VACH",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VASO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VATE",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VCNX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VELO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "VENU",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VERO",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "VMCAF",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VNRX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "VS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VVOS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "WDDD",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WHLT",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WKHS",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "WORX",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WRAP",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WYTC",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "XWIN",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "YHC",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ZENA",
+      "earnings_date": "2026-03-30",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AES",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ALLR",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ANGO",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AZ",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BABB",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BEEM",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BGMS",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BMEA",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BOSC",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CGNT",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CHSCP",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CLIR",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "COCH",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CSAI",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EXOZ",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FC",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FSI",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GEDC",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GLMD",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KLTO",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KXIN",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LDSN",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LPA",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LTUM",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MDBH",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MIMI",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NBY",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ONVC",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PENG",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RGP",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RMHI",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SKYX",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SMEV",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SOAR",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SWVL",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TAVI",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TXO",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "UNF",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "USAR",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "YIBO",
+      "earnings_date": "2026-03-31",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AIRE",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AYI",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BEGI",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BYRN",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CAG",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CENN",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CTHR",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DECA",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EACO",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FAAS",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FBYD",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GES",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "HPF",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HPI",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HPS",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KRMN",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KSCP",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "LFCR",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LNN",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LW",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MSM",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "NBP",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SES",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SLP",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TVTV",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "XOM",
+      "earnings_date": "2026-04-01",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "AMS",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CRTD",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ESHA",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HIND",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "IXAQF",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JPI",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JQC",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NCNO",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PNBI",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RDUS",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SNNF",
+      "earnings_date": "2026-04-02",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BLE",
+      "earnings_date": "2026-04-03",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MKDW",
+      "earnings_date": "2026-04-03",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MTBLY",
+      "earnings_date": "2026-04-03",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MYN",
+      "earnings_date": "2026-04-03",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TCBC",
+      "earnings_date": "2026-04-03",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TRIB",
+      "earnings_date": "2026-04-03",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "AEHR",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ATAO",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ATVK",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AVX",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AXIL",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BFK",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BFNH",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BKSC",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BNY",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BTOG",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BTT",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CALM",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DXYN",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DYNR",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FUFU",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GBX",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GORO",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KRUS",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LEVI",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MAMA",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MFON",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MHD",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MIY",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MOBQ",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MPA",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MQT",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MUA",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MUC",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MVT",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MYD",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MYI",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NRIX",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NSTM",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PBNC",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PHVS",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "QETA",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RNTX",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RPM",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SBOX",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SPPL",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TLRY",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "VMAR",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WBA",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "WBUY",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WDFC",
+      "earnings_date": "2026-04-06",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMBK",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AREB",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ARTW",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ASYS",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHBH",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DAL",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "DBGI",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EBFI",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GRNQ",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HOVR",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LAKE",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MCBK",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MLEC",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MOVE",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MUE",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NEOG",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PACB",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PCYO",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PGOL",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PSMT",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RELL",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SMPL",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "STZ",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TBBB",
+      "earnings_date": "2026-04-07",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BKHA",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BSVN",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CVAC",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EQS",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FIEE",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HES",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "KLIB",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KMX",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LDXC",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LOVE",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NTIC",
+      "earnings_date": "2026-04-08",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AIO",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BIOQ",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BLK",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BOTY",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CIBH",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNBB",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EGY",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EICCF",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FBSI",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GURE",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HIFS",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HRBR",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ITP",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LEGT",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NIE",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PLAG",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "QCLS",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SVII",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UNTY",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WAFD",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WNDW",
+      "earnings_date": "2026-04-09",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EVOH",
+      "earnings_date": "2026-04-10",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IFBD",
+      "earnings_date": "2026-04-10",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MCCK",
+      "earnings_date": "2026-04-10",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ABLT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ABVC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AIMAU",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AKTX",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ALOT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMNF",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "APLD",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "APLT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "APYP",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AREN",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ASFT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ATMC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AUMN",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AXIM",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BFC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BLNC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BMRA",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BNZI",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BRGX",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BRVO",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BSEM",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BURU",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CAWW",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CCEL",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CCNE",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CETY",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CFFI",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CFOO",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHEV",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CLSH",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNBX",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNFN",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "COSG",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "COSM",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CPMV",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CYDY",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DOMH",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DPLS",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DREM",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DSNY",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ENRT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EQBK",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EVTV",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FAST",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FAVO",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FBK",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FCHS",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FFLO",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FGNV",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FOXO",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FRMO",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FSI",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FTFT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FULT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GAME",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GLGI",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GLSI",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GOAI",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GS",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "GWAV",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HBSI",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HCMC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HRGG",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HWC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HYPD",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "IBKR",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "INTJ",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IRIDQ",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IVDA",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "JBHT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "JCTC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KITT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "KLNG",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KTEL",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KUBR",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LEXX",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LQWC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MCOM",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MDIA",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MJNA",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MTNB",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NAMI",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NFTM",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NIC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NNAX",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OLB",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OMC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ORBS",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OTLC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "OTRK",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "OZSC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PAYD",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PDIV",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PNBK",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PNFP",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PNRG",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PUBC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RBTK",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RJDG",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RMSL",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RVCB",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SINC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SKIL",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SLAMF",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SMLR",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SOBR",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SPND",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SPRB",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SPRS",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SSII",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "STEX",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "STME",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SUNE",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SWAG",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "THCH",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "THVB",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TLSS",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TMRC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TOMZ",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TOPS",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TORO",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TRX",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UAL",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VEEA",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VIRC",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VIVK",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VNJA",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VYCO",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VYST",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WELNF",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WHEN",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WINT",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "WOLV",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "XTIA",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "XWEL",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "YHGJ",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "YYGH",
+      "earnings_date": "2026-04-13",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AA",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ABT",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "AHRO",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMCI",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BANL",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BANR",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BOF",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "C",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CBFC",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CBSH",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNS",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CRSB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CSBB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CSX",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CTBI",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CURR",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FFBB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FHN",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FMCB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FMNB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FNB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FR",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "HARL",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HLFN",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HOMB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IGPK",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JNJ",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JPM",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KMI",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KMTS",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LBRT",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LOGN",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MMLP",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MRTN",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MSPR",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NIHK",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ONFO",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OZK",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PLBC",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PLD",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "REXR",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RIME",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SFNC",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SLG",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SNV",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "STI",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TFIN",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TRV",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "UNB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VNUE",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VPRB",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VSME",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WFC",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "WINA",
+      "earnings_date": "2026-04-14",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ACU",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ALLY",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "AQUC",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ATLO",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AVBH",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BAC",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BAFN",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BANF",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BCML",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BHB",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BMI",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "BVFL",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BX",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CASS",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CBKM",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ENBP",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FFIN",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FTI",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "GPUS",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HKIT",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HOFT",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "IIIN",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "INDB",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JF",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KISB",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KSBI",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MAN",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MIRA",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MRSH",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MS",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MTB",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NFLX",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NWFL",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PKBK",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PNC",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SCHW",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SNA",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SSM",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "STT",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "TCBI",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TRCY",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UBFO",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UBOH",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UCIX",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UNH",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "WABC",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WCFB",
+      "earnings_date": "2026-04-15",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BK",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CCBC",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CFG",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHMG",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CIZN",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNAF",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CPKF",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DIT",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ESBS",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KEY",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MCBS",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MHGU",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OVLY",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SIFY",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "STCB",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "USB",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "USMT",
+      "earnings_date": "2026-04-16",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ALV",
+      "earnings_date": "2026-04-17",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BMXI",
+      "earnings_date": "2026-04-17",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FITB",
+      "earnings_date": "2026-04-17",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OSRH",
+      "earnings_date": "2026-04-17",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RF",
+      "earnings_date": "2026-04-17",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TFC",
+      "earnings_date": "2026-04-17",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AIIO",
+      "earnings_date": "2026-04-19",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ADC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ASRE",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ASRV",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AUBN",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AXS",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AZZ",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BCBP",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BDN",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BKR",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "BOH",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BOKF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BSPK",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CADE",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CALX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CASH",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CATY",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CBBI",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CBIH",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CCBG",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CCFN",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CMTV",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "COF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CWBC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DCOM",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DGX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "DHR",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "DX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EBF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EFX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ELS",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ELV",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ENPH",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EQT",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FLXS",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FMBL",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FRBA",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FSBW",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FUNC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FVCB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GCBC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GE",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "GNTY",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GPC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GTPS",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HAFC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HAL",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "HBCP",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HBT",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HIRU",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HOPE",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HRI",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HXL",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "IRDM",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ISRG",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ISTR",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IVZ",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "JBIO",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "JUVF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JYD",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KARX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KMB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "LCNB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LGHL",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LMT",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "LOT",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MANH",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MBWM",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MCB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MCBI",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MCO",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MCRI",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MEDP",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MIND",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MLGF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MLI",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MMM",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MNSB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MSCI",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MSVB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MTLS",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NBBK",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NBHC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NECB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NIDB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NOC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "NPB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NVCR",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NVR",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ONB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ORBN",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ORPB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ORRF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PAIYY",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PBNK",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PEBC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PEBK",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PEBO",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PEGA",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PFSI",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PGC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PHM",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "PKG",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PMHG",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PMT",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PNR",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "QCRH",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "QNBC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RNST",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RRC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RTX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SBUX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SEGG",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SFBS",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SFST",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SJ",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SLRK",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SMBK",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "STLD",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SYF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "TDY",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "TETEF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "THFF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TRMK",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TRST",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TSBK",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TSLA",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "UBX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "UCB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "USNA",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "VBTX",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VMI",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WAL",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WASH",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WFRD",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WNEB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WRB",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "WSBF",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WTFC",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "YJ",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ZION",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ZWS",
+      "earnings_date": "2026-04-20",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ACUT",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ADX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ALK",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMED",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMTB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "APH",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ARR",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ASGN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AVY",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "BA",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "BANC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BPOP",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BRKL",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BSX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "BWB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BWFG",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CACI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CBAN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CBFV",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CCNB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CCS",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CDTI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CFFN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHCO",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHDN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CHE",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHKP",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CMA",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CME",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CMG",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "COLB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "COOP",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CPF",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CSL",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CVBF",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CVLG",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CYH",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CZNC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DHI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ECX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EDU",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "EEFT",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EGBN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EGP",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EPRT",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ERH",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ESI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EW",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EWBC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FBNC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FBP",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FDBC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FE",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FFWC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FGFH",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FHB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FNLC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FOR",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FPAY",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GATX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GD",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "GEV",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GGG",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GOVB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GSHD",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GTY",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HBNC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HCSG",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "HLX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "IBTN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IMAX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "INBK",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IPAR",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JMSB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "JOE",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KALU",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KNSA",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KNX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KREF",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LAD",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LII",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "LOB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LRCX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LVS",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MAS",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MBLU",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MHO",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MOH",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MPB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MTDR",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MTH",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MXL",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NEE",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "NEM",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "NEU",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NFBK",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NOW",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "NRIM",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NSC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "NTB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NTRS",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "OAKC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OBK",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ODFL",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OFG",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OII",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ORLY",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OSBC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OTIS",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PCLB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PEN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PEO",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PFBX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PLXS",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PPBI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PRG",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PTEN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "QS",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RHI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RLI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RMD",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RNR",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ROL",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RS",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SEIC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SF",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SIGI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SOMC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SPOT",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "STC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SYBT",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "T",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TCBX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TEL",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TMHC",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TMO",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "TNL",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TOWN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TR",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TXN",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TYL",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "URI",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "UVSP",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VIRT",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VKTX",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "VRE",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VRT",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VZ",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WAB",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "WHR",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WSO",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WU",
+      "earnings_date": "2026-04-21",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "AAL",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ACNB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ADT",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ALEX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ALLE",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMBP",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "AMP",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "APOG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "APPF",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ARI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ASB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AUB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BBT",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BCAL",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BCPC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BELFA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BFH",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "BFST",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BPRN",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BRBS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BY",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BYD",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CARE",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CBRE",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CBZ",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CCZ",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CEFC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CIVB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CMCSA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CMS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CMS PR B",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNOB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CNP",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CNX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "COUR",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "CRS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "CSHX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CUBI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DAIO",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DAR",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "DGICA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DIMC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DLR",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DOC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DOV",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EBC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "EHC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "EMN",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "ERIE",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ESQ",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FAF",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FARO",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FBIZ",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FBTT",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FCCO",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FCN",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FCNCA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FCX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FFBC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FHI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "FISV",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "FIX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FNWB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FPH",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FRME",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FRSB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FSFG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FSRL",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GBCI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GILD",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GLOP PR A",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GLPI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GOOGL",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "GPI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GRC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HAS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "HFWA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HIG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "HONE",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HTB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "HTBK",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HTH",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HZO",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IBCP",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "IBM",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "INDV",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "INTC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "IPG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ITGR",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KDP",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "KN",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "KNSL",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "KRNY",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LADR",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LHX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "LOAN",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LUV",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LYTS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MBCN",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MBLY",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MGRC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MMSI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "MOFG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MPX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MSB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MTX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MYFW",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NBND",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NBTB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NDAQ",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NKSH",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OCFC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OFED",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OPBK",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ORC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ORI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PCB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PCG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PCG PR A",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PECO",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PEP",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "PFG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PFS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "PINE",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PM",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "POOL",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PRCT",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "PSBQ",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RBCAA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RBKB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RES",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RJF",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "RMBI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RSG",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SABK",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SAH",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SAM",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SBCF",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SCKT",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SHYF",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SKX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SKYW",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SLM",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "SPFI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SPSC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SRCE",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SSNC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "STBA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "STRA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TAL",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "amc"
+    },
+    {
+      "symbol": "TBBK",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TCBK",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "THRM",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TMUS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TPH",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TRU",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "TRUX",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TSCO",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TURB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TXT",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "UBSI",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UNP",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "USCB",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "UVE",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VABK",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "VLO",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "VLY",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VRSN",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WBS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WKC",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WNS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "WSFS",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WST",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "WTBA",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "WTW",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "WY",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "XEL",
+      "earnings_date": "2026-04-22",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ABBV",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ABLV",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ALBY",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AMFC",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AN",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AON",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "AVTR",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "BDRL",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BFIN",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "BHRB",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CFNB",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CHTR",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CLST",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CMRB",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "CRI",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "DOW",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "EAF",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "EFSI",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FCAP",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FGL",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FLG",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "GNTX",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "HBAN",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HCA",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "LAZ",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "LKFN",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "LYB",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "MRBK",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "MUEL",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NWE",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "NWPP",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OAKU",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OPY",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OVBC",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "OXSQ",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PDLB",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PFBC",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PFLC",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PHIN",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "POR",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PRK",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "PSX",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "PVBC",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "R",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "RITM",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "RTEZ",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SAIA",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SCCO",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SLB",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "STEL",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TECK",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TMP",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "TNET",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "UBAB",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "ULH",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "VRTS",
+      "earnings_date": "2026-04-23",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AIFU",
+      "earnings_date": "2026-04-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "AXP",
+      "earnings_date": "2026-04-24",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "ERKH",
+      "earnings_date": "2026-04-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "FZMD",
+      "earnings_date": "2026-04-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "HELE",
+      "earnings_date": "2026-04-24",
+      "company_name": null,
+      "time": "bmo"
+    },
+    {
+      "symbol": "SKWD",
+      "earnings_date": "2026-04-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SSB",
+      "earnings_date": "2026-04-24",
+      "company_name": null,
+      "time": ""
+    },
+    {
+      "symbol": "SXT",
+      "earnings_date": "2026-04-24",
+      "company_name": null,
+      "time": ""
+    }
+  ],
+  "warnings": [
+    "Historical events are limited to the first 100 rows to control API usage."
+  ]
+}

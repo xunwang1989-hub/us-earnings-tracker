@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-02-26T15:36:07.974773Z",
+  "lookback_days": 30,
+  "future_days": 14,
+  "drop_threshold_pct": 10.0,
+  "reaction_days": 15,
+  "analyzed_events": 57,
+  "historical_drops": [
+    {
+      "symbol": "FUBO",
+      "earnings_date": "2026-02-03",
+      "baseline_date": "2026-02-03",
+      "baseline_close": 1.77,
+      "lowest_date": "2026-02-24",
+      "lowest_close": 1.16,
+      "drop_pct": -34.46
+    },
+    {
+      "symbol": "AMD",
+      "earnings_date": "2026-02-03",
+      "baseline_date": "2026-02-03",
+      "baseline_close": 242.11,
+      "lowest_date": "2026-02-05",
+      "lowest_close": 192.5,
+      "drop_pct": -20.49
+    },
+    {
+      "symbol": "SOFI",
+      "earnings_date": "2026-01-30",
+      "baseline_date": "2026-01-30",
+      "baseline_close": 22.81,
+      "lowest_date": "2026-02-23",
+      "lowest_close": 18.22,
+      "drop_pct": -20.12
+    },
+    {
+      "symbol": "SNAP",
+      "earnings_date": "2026-02-04",
+      "baseline_date": "2026-02-04",
+      "baseline_close": 5.91,
+      "lowest_date": "2026-02-17",
+      "lowest_close": 4.73,
+      "drop_pct": -19.97
+    },
+    {
+      "symbol": "MSFT",
+      "earnings_date": "2026-01-28",
+      "baseline_date": "2026-01-28",
+      "baseline_close": 481.63,
+      "lowest_date": "2026-02-05",
+      "lowest_close": 393.67,
+      "drop_pct": -18.26
+    },
+    {
+      "symbol": "HOOD",
+      "earnings_date": "2026-02-10",
+      "baseline_date": "2026-02-10",
+      "baseline_close": 85.6,
+      "lowest_date": "2026-02-12",
+      "lowest_close": 71.12,
+      "drop_pct": -16.92
+    },
+    {
+      "symbol": "PINS",
+      "earnings_date": "2026-02-12",
+      "baseline_date": "2026-02-12",
+      "baseline_close": 18.54,
+      "lowest_date": "2026-02-13",
+      "lowest_close": 15.42,
+      "drop_pct": -16.83
+    },
+    {
+      "symbol": "PLTR",
+      "earnings_date": "2026-02-02",
+      "baseline_date": "2026-02-02",
+      "baseline_close": 147.76,
+      "lowest_date": "2026-02-24",
+      "lowest_close": 128.84,
+      "drop_pct": -12.8
+    },
+    {
+      "symbol": "ZM",
+      "earnings_date": "2026-02-25",
+      "baseline_date": "2026-02-25",
+      "baseline_close": 85.43,
+      "lowest_date": "2026-02-26",
+      "lowest_close": 74.67,
+      "drop_pct": -12.6
+    },
+    {
+      "symbol": "CSCO",
+      "earnings_date": "2026-02-11",
+      "baseline_date": "2026-02-11",
+      "baseline_close": 85.54,
+      "lowest_date": "2026-02-12",
+      "lowest_close": 75.0,
+      "drop_pct": -12.32
+    },
+    {
+      "symbol": "AMZN",
+      "earnings_date": "2026-02-05",
+      "baseline_date": "2026-02-05",
+      "baseline_close": 222.69,
+      "lowest_date": "2026-02-13",
+      "lowest_close": 198.79,
+      "drop_pct": -10.73
+    }
+  ],
+  "upcoming_earnings": [
+    {
+      "symbol": "RIOT",
+      "earnings_date": "2026-03-02",
+      "company_name": null,
+      "time": null
+    },
+    {
+      "symbol": "TGT",
+      "earnings_date": "2026-03-03",
+      "company_name": null,
+      "time": null
+    },
+    {
+      "symbol": "BILI",
+      "earnings_date": "2026-03-05",
+      "company_name": null,
+      "time": null
+    },
+    {
+      "symbol": "COST",
+      "earnings_date": "2026-03-05",
+      "company_name": null,
+      "time": null
+    },
+    {
+      "symbol": "ADBE",
+      "earnings_date": "2026-03-12",
+      "company_name": null,
+      "time": null
+    }
+  ],
+  "warnings": []
+}
